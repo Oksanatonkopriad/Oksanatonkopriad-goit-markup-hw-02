@@ -10,36 +10,68 @@
     --accent-color: #2196F3;
     --primary-bg-color: #FFFFFF;
 }
+
 body {
     background: var(--primary-bg-color);
     color: var(--primary-text-color);
+    font-family: Roboto;
+    font-style: normal;
+}
+.link {
+    text-decoration: none;
 }
 ul {
     list-style: none;
 }
 
 /* Logotipe */
-.logo {
-
+.page-header .logo-left {
+    color: #2196F3;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
 }
+.page-header .logo-right {
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+}
+
 /* Navigation */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
 .site-nav .link {
     color: var(--title-text-color);
 }
 
 .site-nav .link-active {
     color: var(--accent-color);
+    text-decoration: none;
 }
 
 /* Contacts */
 .contacts-list .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
-.contacts-list .link-email {
-    color: var(--primary-text-color);
-}
-.contacts-list .link-email:hover,
-.contacts-list .link-email:focus {
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
     color: var(--accent-color);
 }
 
@@ -49,6 +81,14 @@ ul {
 }
 .order-service .title {
     color: var(--primary-bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Button */
@@ -57,6 +97,14 @@ ul {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -71,12 +119,30 @@ ul {
 /* Features */
 .feature-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
 }
 
 /* Section */
 
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Our work */
@@ -88,10 +154,31 @@ ul {
 }
 .section-team .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team-list .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-card .text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
 }
 .section-team .team-card {
     background: #FFFFFF;
@@ -102,8 +189,41 @@ ul {
 .page-footer {
     background: #2F303A;
 }
+.page-footer .logo-left {
+    color: #2196F3;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+}
+
+.page-footer .logo-right {
+    color: var(--primary-bg-color);
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+}
 .footer-list .link-address {
     color: var(--primary-bg-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
 }
 .footer-list .link-address:hover,
 .footer-list .link-address:focus {
@@ -111,6 +231,12 @@ ul {
 }
 .footer-list .link {
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
 }
 .footer-list .link:hover,
 .footer-list .link:focus {
