@@ -242,3 +242,47 @@ ul {
 .footer-list .link:focus {
     color: var(--accent-color);
 }
+/* Portfolio */
+
+.btn {
+    background: #F5F4FA;
+    cursor: pointer;
+}
+
+.btn-all {
+    background-color: #2196F3;
+}
+
+.btn-all:hover,
+.btn-all:focus {
+cursor: pointer;
+color: var(--primary-bg-color);
+background: #2196F3;
+
+}
+
+.container {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.container .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+.container .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
