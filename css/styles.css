@@ -26,16 +26,8 @@ ul {
 .site-nav .link {
     color: var(--title-text-color);
 }
-.site-nav .link:hover, 
-.site-nav .link:focus {
-    color: var(--accent-color);
-}
 
-.site-nav .link-studio:hover,
-.site-nav .link-studio:focus {
-    color: var(--accent-color);
-}
-.site-nav .link-studio .current {
+.site-nav .link-active {
     color: var(--accent-color);
 }
 
@@ -43,8 +35,11 @@ ul {
 .contacts-list .link {
     color: var(--primary-text-color);
 }
-.contacts-list .link:hover,
-.contacts-list .link:focus {
+.contacts-list .link-email {
+    color: var(--primary-text-color);
+}
+.contacts-list .link-email:hover,
+.contacts-list .link-email:focus {
     color: var(--accent-color);
 }
 
@@ -55,6 +50,24 @@ ul {
 .order-service .title {
     color: var(--primary-bg-color);
 }
+
+/* Button */
+.button {
+    color: var(--primary-bg-color);
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-bg-color);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
 /* Features */
 .feature-list .title {
     color: var(--title-text-color);
@@ -80,18 +93,26 @@ ul {
 .team-list .title {
     color: var(--title-text-color);
 }
+.section-team .team-card {
+    background: #FFFFFF;
+    /* material shadow v1 */
+}
 
 /* Address */
 .page-footer {
     background: #2F303A;
 }
-.footer-list 
-
-/* Button */
-.button {
+.footer-list .link-address {
     color: var(--primary-bg-color);
-    background-color: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
+}
+.footer-list .link-address:hover,
+.footer-list .link-address:focus {
+    color: var(--accent-color);
+}
+.footer-list .link {
+    color: var(--primary-text-color);
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--accent-color);
 }
