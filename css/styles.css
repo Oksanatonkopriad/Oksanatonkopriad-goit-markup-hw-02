@@ -31,7 +31,7 @@ ul {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -41,7 +41,7 @@ ul {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -51,7 +51,7 @@ ul {
 .site-nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 }
 .site-nav .link {
     color: var(--title-text-color);
@@ -67,7 +67,7 @@ ul {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
 }
 
 .contacts-list .link:hover,
@@ -83,7 +83,7 @@ ul {
     color: var(--primary-bg-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     /* or 136% */
     
     text-align: center;
@@ -99,7 +99,7 @@ ul {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     /* identical to box height, or 188% */
     
     display: flex;
@@ -121,14 +121,13 @@ ul {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .feature-list .text {
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -140,7 +139,7 @@ ul {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -156,7 +155,7 @@ ul {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -165,7 +164,7 @@ ul {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /* identical to box height */
     
     text-align: center;
@@ -173,9 +172,8 @@ ul {
 }
 .team-card .text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     /* identical to box height */
     
     text-align: center;
@@ -196,7 +194,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -209,7 +207,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     /* identical to box height */
     
     letter-spacing: 0.03em;
@@ -218,9 +216,8 @@ ul {
 .footer-list .link-address {
     color: var(--primary-bg-color);
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -230,10 +227,10 @@ ul {
     color: var(--accent-color);
 }
 .footer-list .link {
-    color: var(--primary-text-color);
-    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     /* or 171% */
     
     letter-spacing: 0.03em;
@@ -245,11 +242,32 @@ ul {
 /* Portfolio */
 
 .btn {
+    color: var(--title-text-color);
     background: #F5F4FA;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .btn-all {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
     background-color: #2196F3;
 }
 
@@ -269,7 +287,7 @@ background: #2196F3;
 .container .title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     /* identical to box height, or 200% */
     
     letter-spacing: 0.06em;
@@ -277,9 +295,8 @@ background: #2196F3;
     color: #212121;
 }
 .container .text {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     /* identical to box height, or 188% */
     
     letter-spacing: 0.03em;
